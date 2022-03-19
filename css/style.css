@@ -1,0 +1,66 @@
+#body {
+    padding-top: 90px;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#formsectoin {
+    text-align: center;
+}
+
+#formsectoin input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
+
+#features {
+    margin-top: 30px;
+}
+
+#features .icon {
+    text-align: center;
+}
+
+#features .icon img {
+    width: 30%;
+}
+
+#howitworks {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#pricing {
+    margin: 30px;
+}
+#pricing .product {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+#pricing .product .pricetitle{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#pricing .pricebutton button{
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
